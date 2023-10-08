@@ -1,0 +1,80 @@
+/* Color Palette
+#4cb4f0 - blue
+#b0daec - lighter blue
+#d1ebf6 - lightest blue
+#fefbba - Yellow
+#f6d4e3 - pink  
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Pacifico&family=Poppins:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+    
+
+.red {
+    border-radius: 25px;
+    padding: 50px;
+    color: #173444;
+    border: solid #f6d4e3;
+    margin: 10px;
+    font-family:  Poppins;
+    background-color: #d1ebf6cb;
+}
+
+body{
+    background-image: radial-gradient(circle at top right,  #4cb4f0, #f6d4e3, #fefbba );
+    margin: 250px;
+    font-weight: 500;
+}
+
+.search{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #b0daec;
+    border: solid #f6d4e3;
+    color: #203f50;
+    margin-bottom: 20px;
+    font-family: Poppins;
+    box-shadow: 1px 1px 25px 0px rgb(45, 37, 71);
+}
+
+    /* @media (min-width: 300px) and (max-width: 600px){
+        .boxin{
+            display: flex;
+            flex-direction: column;
+        }
+    } */
+.boxin{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 500px;
+    margin-right: 500px; */
+}
+
+.bee{
+    background-color: #d1ebf6cb;
+    border-radius: 25px;
+    border: 2px;
+    margin: 10px;
+    padding: 20px;
+    border: solid #f6d4e3;
+    color: black;
+    font-family: Poppins;
+    box-shadow: 1px 1px 25px 0px rgb(45, 37, 71);.first{
+
+  border: solid black;
+  padding: 10px;
+}
+
+}
+
+.input{
+    color: #203f50;
+    font-family: Dela Gothic One;
+    font-size: xx-large;
+    
+}
+
+.bs{
+    display: flex;
+}
